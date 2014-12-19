@@ -1,0 +1,19 @@
+#contactBox {
+background-color:#E0D8CD;
+border-bottom: 4px solid #C4B49D;
+}
+
+#contactBox .heading {
+/* Modified to fix the UAT issue FW-101 - Starts Here */
+background-image:url(contactHeader.jpg);
+}
+
+/***** BEGIN SKIN-SPECIFIC CODE *****/
+
+.menu {background-color: #814D37; background-image: url(nav.jpg); background-repeat:repeat-x; color:#ffffff}
+
+.menu_rollover {color: #ffffff; background-color: #73402D; background-image: url(nav-over.jpg); background-repeat:repeat-x}
+
+.menu_active{color: #ffffff; background-color: #73402D; background-image: url(nav-over.jpg)}
+/* Modified to fix the UAT issue FW-101 - Ends Here */
+/***** END SKIN-SPECIFIC CODE *****/

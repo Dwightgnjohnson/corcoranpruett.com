@@ -1,0 +1,414 @@
+/***** BEGIN Fatwire CSS *****/
+/* Modified to fix the UAT issue FW-101 - Starts Here */
+body {text-align:center;font-family: Arial, Verdana, sans-serif;font-size: 12px;font-weight: normal;color: #000000;background-color: #FFFFFF;margin-top: 0px;margin-right: 0px;margin-bottom: 0px;margin-left: 0px}
+/* Modified to fix the UAT issue FW-101 - Ends Here */
+table {color: #000000;text-align: left;}
+
+a {text-decoration: underline}
+
+a:hover {text-decoration:none;}
+
+.skinBg {background:#ffffff;}
+
+.menu, .menu_rollover, .menu_active {text-align:center;cursor:pointer; padding:auto 5px; font-family:Arial, sans-serif; font-size:18px; font-weight:normal; text-decoration:none;}
+#footer{background-color:#E6E6E6;clear:both;font-size:10px;line-height:1.5em;padding-bottom:5px;padding-left:5px;padding-right:5px;padding-top:5px;text-align:center;}
+.footerLinks {  font-family: Arial, Verdana, sans-serif; font-size: 10px; font-weight: normal; color: #000000}
+.footerText { font-family: Arial, Verdana, sans-serif; font-size: 10px; font-weight: normal; color: #000000; text-decoration: none}
+.languages {  font-family: Arial, Verdana, sans-serif; font-size: 12px; font-weight: normal; color: #000000; text-decoration: underline}
+.logo {  font-family: Arial, Verdana, sans-serif; font-size: 20px; font-weight: normal; color: #292929; text-decoration: none}
+.buttons { font-family: Arial, Verdana, sans-serif; font-size: 12px; font-weight: normal; color: #000000; text-decoration: none; background-color: #e0e0e0; height: 20px; width: auto; border: 1px #cccccc solid } 
+.titles {  font-family: Arial, Verdana, sans-serif; font-size: 10px; font-weight: bold; color: #666666; text-decoration: none; padding-top: 10px}
+.slogan {  font-family: Arial, Verdana, sans-serif; font-size: 20px; font-weight: normal; color: #292929; text-decoration: none}
+.skinAlign { margin-left: auto; margin-right: auto;  text-align: left; }
+.headerimage { margin-bottom: -5px; }
+/* Modified to fix the UAT issue FW-132 - Starts Here */
+.Lemon{ color:#FFFFA8; }
+.Blue{ color:#D2EDF9; }
+.Brown{ color:#E0D8CD; }
+.Green{ color:#DCFECD; }
+.Grey{ color:#CACACA; }
+.Navy{ color:#D5E1EC;}
+.Olive{ color:#EEF2B3;}
+.Purple{ color:#FECFDF;}
+.Peach{ color:#F2E1DB;}
+.Orange{ color: #FFD356;}
+.Pink{ color: #F2E4F8;}
+.Turquoise{ color: #C7E2DF;}
+/* Modified to fix the UAT issue FW-132 - Ends Here */
+
+.text {  padding-top: 10px; padding-right: 12px; padding-bottom: 10px; padding-left: 12px}
+.search_field {  font-family: Arial, Verdana, sans-serif; font-size: 12px; color: #3B3B3B; text-decoration: none; height: 20px; width: 120px; background-color: #FFFFFF; border: 1px #C5D8DF solid}
+.login_field { font-family: Arial, Verdana, sans-serif; font-size: 12px; color: #484848; text-decoration: none; height: 20px; width: 148px; background-color: #FFFFFF; border: 1px #C5D8DF solid; font-weight: normal}
+
+.login_links {  font-family: Arial, Verdana, sans-serif; font-size: 11px; font-weight: normal; color: #57ADDF; text-decoration: underline}
+.news_links {  font-family: Arial, Verdana, sans-serif; font-size: 12px; font-weight: bold; color: #57ADDF; text-decoration: none}
+.astrix { ; }
+.quote { background-color: #FFFFFF; border: 1px solid #000000; }
+.user_admin { color: #C70404; font-weight: bold; }
+.user_self { color: #000000; font-weight: normal; }
+.user_normal {}
+
+.search_text {  font-family: Arial, Verdana, sans-serif; font-size: 12px; color: #484848; text-decoration: none; padding-right: 5px; padding-left: 5px}
+.button { font-family: Arial, Verdana, sans-serif; font-size: 12px; font-weight: normal; color: #196EC2; text-decoration: none; background-color: #DBF1F9; height: 20px; width: 40px; border: 1px #CCCCCC solid }
+.titles_in { font-family: Arial, Verdana, sans-serif; font-size: 12px; font-weight: bold; color: #A50404; text-decoration: none; padding-top: 10px }
+
+.forum_buttons { font-family: Arial, Verdana, sans-serif; font-size: 12px; font-weight: normal; color: #196EC2; text-decoration: none; background-color: #DBF1F9; height: 20px; width: 40px; border: 1px #CCCCCC solid }
+.text_field { font-family: Arial, Verdana, sans-serif; font-size: 12px; color: #484848; text-decoration: none; height: 20px; width: 148px; background-color: #FFFFFF; border: 1px #C5D8DF solid; font-weight: normal }
+.search_button { font-family: Arial, Verdana, sans-serif; font-size: 12px; font-weight: normal; color: #000000; text-decoration: none; background-color: #e0e0e0; height: 20px; width: auto; border: 1px #cccccc solid }
+.text_field_big { font-family: Arial, Verdana, sans-serif; font-size: 12px; color: #484848; text-decoration: none; height: 100px; width: 300px; background-color: #FFFFFF; border: 1px #C5D8DF solid; font-weight: normal }
+.text_field_small { font-family: Arial, Verdana, sans-serif; font-size: 12px; color: #484848; text-decoration: none; height: 20px; width: 40px; background-color: #FFFFFF; border: 1px #C5D8DF solid; font-weight: normal }
+.nextprevout { font-family: Arial, Verdana, sans-serif; font-size: 13px;  color: #000000; text-decoration: none; }
+.nextprevin { font-family: Arial, Verdana, sans-serif; font-size: 13px;font-weight: bold; color: #A90A08; text-decoration: underline; }
+.modules_td { background-color: #FFFFFF; padding-left: 2px; padding-right: 2px; }
+.forms_text { }
+
+.sendtoafriend_body {padding:15px;}
+.printv_body{padding:15px;}
+.modules_table_border { width: 100%;padding:1px;margin: 0px 0px 0px 0px;border-collapse: collapse;border: 1px solid #7C7C7C;cursor: default;}
+.modules_table_data { background-color: #eeeeee;border: 1px solid #7C7C7C; }
+
+.content_pages_table { padding:0px; border-spacing: 0px; border: 0px; }
+.content_pages_table td { padding: 0px; }
+
+/***** END Fatwire CSS *****/
+
+
+
+/***** BEGIN GENERIC CODE *****/
+
+.left {
+float:left;
+overflow:hidden;
+}
+
+.right {
+float:right;
+overflow:hidden;
+}
+
+.clear {
+	clear:both;
+}
+
+strong {
+	font-weight:bold;
+}
+
+ul {
+	margin-left:30px;
+
+}
+
+li {
+	padding-left:5px;
+}
+
+
+/***** END GENERIC CODE *****/
+
+
+/***** BEGIN FOOTER CODE *****/
+
+.newfooter{
+text-align: center;
+width: 930px;
+margin: 0 auto;
+padding-bottom: 10px;
+clear:both;
+font-size:10px;
+color:#000;
+}
+
+.newfooter a {
+text-decoration:underline;
+}
+
+.newfooter a:hover {
+text-decoration:none;
+}
+
+.newfooter b, .newfooter strong {
+font-weight: normal;
+}
+/***** END FOOTER CODE *****/
+
+
+
+/*****  BEGIN TEMPLATE LAYOUT CODE *****/
+
+#wrapper {
+margin: 0px auto;
+padding: 0;
+width:1000px;
+text-align: left;
+}
+
+#header {}
+
+#content {
+margin: 35px 20px 5px 20px;
+}
+
+
+#content #main {
+width:625px;
+margin-bottom:15px;
+}
+
+/* Modified to fix the UAT issue FW-97 - Starts Here */
+#content .mainimage {
+/* Modified to fix the UAT issue FW-98- Starts Here */
+margin:auto;
+padding:10px 5px 3px 0px;
+/* Modified to fix the UAT issue FW-98- Ends Here */
+float:left;
+}
+/* Modified to fix the UAT issue FW-97 - Ends Here */
+
+/* Modified to fix the UAT issue FW-98 - Starts Here */
+#content .bodyContent{
+padding-left:0px;
+text-align:justify;
+}
+
+#content .bodyContent ul{
+padding-left:225px;
+}
+
+#content .calltoaction{
+float:left;
+text-align:left;
+clear:both;
+padding-top:10px;
+}
+/* Modified to fix the UAT issue FW-98 - Ends Here */
+#content .video {
+padding: 0px 0px 20px 0px;
+}
+/* Modified to fix the UAT issue FW-156 - Ends Here */
+#content .bottomimage{
+float:left;
+padding:5px 3px 3px 0px;
+}
+/* Modified to fix the UAT issue FW-156 - Ends Here */
+#content #main h1 {
+font-size:22px;
+font-weight:normal;
+padding-bottom: 20px;
+margin:0;
+}
+
+#content #main h2 {
+font-size:20px;
+font-weight:normal;
+padding-bottom: 10px;
+padding-top:0;
+margin:0;
+}
+
+h3 {
+font-size: 16px;
+font-weight: bold;
+margin:0;
+padding:5px 0;
+}
+
+#content #main p, #content #main ul {
+line-height:1.3em;
+}
+
+
+#content #side {
+	width:300px;
+	line-height:1.3em;
+}
+
+#side .right {
+margin-left:20px
+}
+
+.home .left {
+width:46%;
+}
+.home .phone {
+font-size: 16px;
+}
+
+.home .right {
+width:46%;
+border-left: solid 1px #A7A6A9;
+padding-left: 20px;
+}
+
+.home .right ul, .home .left ul {
+margin-left: 0;
+padding-left: 20px;
+}
+
+.feature {
+margin-bottom: 20px;
+}
+
+#map {
+	margin-bottom:10px;
+	width:260px;overflow:hidden;
+}
+
+#map img {
+	margin:5px 0;
+}
+/* Modified to fix the UAT issue FW-133 - Starts Here */
+#hours {
+	margin-bottom:20px;
+	line-height:20px;
+	width:260px;
+}
+/* Modified to fix the UAT issue FW-133 - Ends Here */
+#hours strong {
+	line-height: 26px;
+}
+
+#payment {
+font-size:12px;
+font-weight: bold; 
+vertical-align:middle;
+}
+
+#payment  img{
+	margin-right: 15px;
+	margin-top: 10px;
+	margin: 10px 5px 10px 0;
+}
+
+#ybBanner {
+	clear:both;
+	width:98%;
+	text-align:center;
+	padding:10px;
+	padding-bottom:0px;
+	border-top:1px solid #B4B4B4;
+}
+
+#contactBox {
+font-size:16px;
+width:260px;
+margin-bottom: 15px;
+color: #3D4451;
+font-family:Arial, sans-serif;
+padding-bottom:5px;
+overflow:hidden;
+}
+
+#contactBox a {
+font-size:16px;
+}
+
+#contactBox iframe {
+margin: 15px 0 10px 10px;
+}
+
+
+#contactBox .heading {
+font-size:16px;
+font-weight:bold;
+background-repeat:no-repeat;
+height: 30px;
+}
+
+#contactBox .heading p {
+padding: 6px 0 0 10px;
+margin: 0;
+}
+
+/* Modified to fix the UAT issue FW-117,FW-118 and FW -138- Starts Here */
+#contactBox .phone, #contactBox .email, #contactBox .address, #contactBox .coupon, #contactBox .play, #contactBox .fax, #contactBox .web, #contactBox .facebook, #contactBox .twitter {
+	background-repeat: no-repeat;
+	height: 30px;
+	background-position: 10px 50%;
+	line-height: 1.2em;
+	margin-top:6px;
+}
+/* Modified to fix the UAT issue FW-117,FW-118 and FW-138 - Ends Here */
+/* Modified to fix the UAT issue FW-138 - Starts Here */
+#contactBox .phone p, #contactBox .email p, #contactBox .coupon p, #contactBox .play p, #contactBox .fax p, #contactBox .web p, #contactBox .address p, #contactBox .facebook p, #contactBox .twitter p {
+	padding: 7px 4px 0px 58px;
+}
+/* Modified to fix the UAT issue FW-138 - Ends Here */
+#contactBox .address.twolines p {
+padding-top: 4px;
+}
+
+
+#contactBox .email a, #contactBox .coupon a, #contactBox .play a, #contactBox .web a, #contactBox .facebook a, #contactBox .twitter a {
+	text-decoration:underline;
+}
+
+#contactBox .email a:hover, #contactBox .coupon a:hover, #contactBox .play a:hover, #contactBox .web a:hover,  #contactBox .facebook a:hover, #contactBox .twitter a:hover {
+	text-decoration:none;
+}
+/* Modified to fix the UAT issue FW-116 - Starts Here */
+#contactBox .phone {
+	background-image: url(gfx/phoneIcon.png);
+}
+
+#contactBox .email {
+	background-image: url(gfx/emailIcon.png);
+}
+
+#contactBox .address {
+	background-image: url(gfx/addressIcon.png);
+}
+
+#contactBox .coupon {
+	background-image: url(gfx/couponIcon.png);
+}
+
+#contactBox .play {
+       background-image: url(gfx/playIcon.png);
+}
+
+#contactBox .web {
+       background-image: url(gfx/webIcon.png);
+}
+
+#contactBox .fax {
+       background-image: url(gfx/faxIcon.png);
+}
+
+#contactBox .facebook{
+       background-image: url(gfx/facebookIcon.png);
+}
+
+#contactBox .twitter{
+       background-image: url(gfx/twitterIcon.png);
+}
+/* Modified to fix the UAT issue FW-116 - Ends Here */
+.links{
+	white-space:nowrap;
+}
+
+.tdclass{
+	margin:0px;padding:0px;
+}
+
+.menudiv{
+	padding-left:2px; padding-right:2px;
+}
+
+.theight{
+	height:50px;
+}
+
+.bullets {
+
+	overflow:hidden;
+
+}
+
+.bullets ul {
+
+	padding-left:16px;
+	margin-left:0px;
+}
+
+/*****  END TEMPLATE LAYOUT CODE *****/

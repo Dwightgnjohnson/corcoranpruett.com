@@ -1,0 +1,37 @@
+/* CSS Document */
+
+/* DHTML Menu Styles */
+.clCMAbs {
+	direction:ltr; left: 0px; visibility: hidden; position: absolute; top: 0px;
+}
+.clBar {
+ 	direction:ltr; visibility: hidden; width: 10px; position: absolute; height: 10px; background-color: #000080;
+}
+.clLevel0 {
+	direction:ltr; position: absolute; background-color: #3b78b0;
+}
+.clLevel0over {
+	direction:ltr; cursor: pointer; position: absolute;
+}
+.clLevel0border {
+	direction:ltr; visibility: hidden; position: absolute;
+}
+.clLevel1 {
+	direction:ltr; background-color: #e0e0e0; font-size: 12px; color: #000000; position: absolute; font-family: Arial, Helvetica, sans-serif; font-weight: bold; padding-top: 2px; padding-left: 10px; padding-bottom: 2px; padding-right: 2px; text-align: left; text-decoration: none;
+}
+.clLevel1over {
+	direction:ltr; cursor: pointer; color: #FFFFFF; background-color: #008B45; padding-top: 2px; padding-left: 10px; padding-bottom: 2px; padding-right: 2px; text-align:left; font-size: 12px; position: absolute;
+}
+.clLevel1border {
+	direction:ltr; visibility: visible; color: #FFFFFF; position: absolute; background-color: #FFFFFF; 
+}
+.clLevel2 {
+	direction:ltr; background-color: #e0e0e0; font-size: 12px; color: #000000; position: absolute; font-family: Arial, Helvetica, sans-serif; font-weight: normal; padding-top: 2px; padding-left: 10px; padding-bottom: 2px; padding-right: 2px; text-align: left; text-decoration: none;
+}
+.clLevel2over {
+	direction:ltr; cursor: pointer; color: #AC0606; background-color: #000000; padding-top: 2px; padding-left: 10px; padding-bottom: 2px; padding-right: 2px; text-align:left; font-size: 12px; position: absolute;
+}
+.clLevel2border {
+	direction:ltr; visibility: visible; color: #FFFFFF; position: absolute; background-color: #FFFFFF; 
+}
+
