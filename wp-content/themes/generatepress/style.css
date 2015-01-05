@@ -966,6 +966,7 @@ h4, h5, h6 {
 .widget-title {
 	margin-bottom: 30px;
 	font-size: 20px;
+	color: #FFF;
 }
 .widget ul {
 	margin: 0;
@@ -1361,8 +1362,29 @@ footer.entry-meta {
 	margin-top: 0;
 }
 .gold {
-	color: #e3d464;
+	color:#0C1624;
 }
+.first-color {
+	color:#0C1624;
+}
+.second-color {
+	color:#2C3E57;
+}
+.thrid-color {
+	color:#8795AD;
+}
+.fourth-color {
+	color:#D5C5B8;
+}
+.fifth-color {
+	color:#941612;
+}
+.white-color {
+	color:#FFFFFF
+}
+.ml-responsive-table .ml-grid {
+	border-bottom: 0px;
+	border-top: 0px;
 
 tr {
 	border-bottom: 0px solid white;

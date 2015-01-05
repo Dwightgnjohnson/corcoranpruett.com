@@ -11,7 +11,7 @@
 	</div><!-- #content -->
 </div><!-- #page -->
 <?php do_action('generate_before_footer'); ?>
-<div <?php generate_footer_class(); ?>>
+<div <?php generate_footer_class(); ?> class="fourth-color">
 	<?php
 	do_action('generate_before_footer_content');
 	global $post;
@@ -67,15 +67,15 @@
 	<footer class="site-info" itemtype="http://schema.org/WPFooter" itemscope="itemscope" role="contentinfo">
 		<div class="inside-site-info grid-container grid-parent">
 			<i class="fa fa-copyright"></i> Corcoran Pruett LLP <?php echo date("Y") ?>
-			<div class="gold">
-				<h3><i>Nevada County's Premier Law Firm</i></h3>
+			<div class="white-color">
+				<h3><i>Experience. Quality. Advocacy</i></h3>
 			</div>
 			<br>
 			<address class="">
-				<a href="https://goo.gl/maps/b57q0" target="_blank"><i class="fa fa-lg fa-map-marker gold"></i> 1740 E. Main Street, Suite 101, Grass Valley, CA 95945</a>
+				<a href="https://goo.gl/maps/b57q0" target="_blank"><i class="fa fa-lg fa-map-marker white-color"></i> 1740 E. Main Street, Suite 101, Grass Valley, CA 95945</a>
 			</address>
 			<div class="">
-				<i class="fa fa-lg fa-phone gold"></i> <a href="tel:5302647014">530-264-7014</a>
+				<i class="fa fa-lg fa-phone white-color"></i> <a href="tel:5302647014">530-264-7014</a>
 			</div>
 		</div>
 	</footer><!-- .site-info -->

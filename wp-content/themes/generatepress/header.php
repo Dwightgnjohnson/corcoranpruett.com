@@ -51,9 +51,7 @@ $generate_settings = wp_parse_args(
 				<div class="site-logo">
 					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><img class="header-image" src="<?php echo $generate_settings['logo']; ?>" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" /></a>
 				</div>
-				<div class="sub-tagline">
-					<i>Nevada County's Premier Law Firm</i>
-				</div>
+				<br /><br />
 				<address class="header-address">
 					<a href="https://goo.gl/maps/b57q0" target="_blank"><i class="fa fa-lg fa-map-marker gold"></i> 1740 E. Main Street, Suite 101<br>Grass Valley, CA 95945</a>
 				</address>
